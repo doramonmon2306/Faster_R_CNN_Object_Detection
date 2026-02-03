@@ -38,8 +38,8 @@ PyTorch, Torchvision, TorchMetrics, NumPy, TensorBoard
 ### 📊 Results
 - Best validation performances are **mAP (IoU 0.5:0.95)** : **0.3**, **mAP_0.5** : **0.5**, **mAP_0.75** : **0.2**
 - Monitoring of training loss and validation metrics via TensorBoard
-- Automatic saving of the best-performing model based on Mean Average Precision
+- Automatic saving of the best-performing model based on **Mean Average Precision**
 
-This project demonstrates a **complete end-to-end object detection pipeline**, from data preprocessing to evaluation.
+This project demonstrates a complete end-to-end object detection pipeline, from data preprocessing to evaluation.
 
 
