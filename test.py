@@ -11,7 +11,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 path = "best_model.pth"
-test_image = "test.png"
+test_image = "test.png" #Put your image path here
 categories = ['background', 'aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair',
                         'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa',
                         'train', 'tvmonitor']
@@ -46,3 +46,4 @@ def test(conf_threshold):
 
 if __name__ == '__main__':
     test(conf_threshold = 0.5)
+
